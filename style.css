@@ -1,7 +1,3 @@
-html {
-  background: url("img/hero-bg.jpg");
-
-}
 
 body {
   margin: 0;
@@ -11,8 +7,7 @@ body {
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
-  -webkit-background-size: cover;
+  background-image: linear-gradient(to right bottom, #ee1f4d, #f24f33, #ed7417, #e19500, #cfb200, #b6c01e, #9acd3c, #78d85c, #55d77d, #31d599, #15d0b0, #25cbc1);
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -130,15 +125,14 @@ body {
   padding: 0;
   height: 14px;
   font-size: 0;
-  background-color: #ffffff;
-  border: 1px solid #86c3fa;
+  background-color: #f5a90459;
   border-radius: 8px;
 }
 
 .level div {
   margin: 1px;
   height: 12px;
-  background-color: #288be6;
+  background-color: #fffb00cb;
   border-radius: 6px;
 }
 
