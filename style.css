@@ -69,7 +69,7 @@ body {
   position: relative;
   animation-name: slide;
   animation-duration: 3s;
-  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
 }
 
 @keyframes slide {
